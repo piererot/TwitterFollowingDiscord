@@ -13,7 +13,7 @@ For this code running smoothly, you need 2 things:
 
 First, create an environment for this python project:
 ```
-$ python -m venv env
+$ python3 -m venv env
 $ source env/bin/activate
 ```
 
@@ -25,7 +25,7 @@ $ pip3 install -r requirements.txt
 Once it's done, all you have to do is to set up your bearer token and webhook in the .env file:
 
 ```
-$ echo "bearer_token=yourbearetoken" >> .env
+$ echo "bearer_token=yourbearertoken" >> .env
 $ echo "discord_webhook=yourdiscordwebhook" >> .env
 ```
 
